@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+.middle {
+    height: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    
+}
+
