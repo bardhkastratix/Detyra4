@@ -1,15 +1,395 @@
 * {
     margin: 0;
-    padding: 0;   
+    padding: 0;
+    font-family: sans-serif;   
 }
 
-.middle {
-    height: 7vh;
+.first {
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: nowrap;
     
 }
 
+.background-top {
+    width: 1500px;
+    position: relative;
+}
+
+.background-top img{
+    width: 100%;
+
+}
+
+.text-top{
+    width: 100%;
+    position: absolute;
+    top:40%;
+    text-align: center;
+    color: white;
+}
+
+.text-top>p{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.text-top>h1{
+    padding: 5px;
+    font-size: 40px; 
+    flex-direction: row;
+    
+}
+
+.button{
+    padding: 5px;
+}
+
+.button :first-child{
+    border:none;
+    border-radius: 30%;
+    background-color: blueviolet;
+    color: white;    
+    padding: 15px;  
+    font-size: 10px; 
+}
+.button :nth-child(2){
+    border:none;
+    border-radius: 30%;
+    background-color: deeppink;
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 50px 0px 100px;
+    font-size: 17px;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.icon1{
+    padding-right: 150px;
+}
+.icon1>h3{
+    padding: 0px 15px 15px ;
+}
+
+.icon1>p{
+    color: grey;
+}
+
+.icon1>img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon2>h3{
+    padding: 0px 15px 15px ;
+}
+.icon2>p{
+    color: grey;
+}
+.icon2>img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon3{
+    padding-left: 150px;
+}
+.icon3>h3{
+    padding: 0px 15px 15px ;
+}
+.icon3>p{
+    color: grey;
+}
+.icon3>img{
+    width: 100px;
+    height: 100px;
+}
+
+.background-mid{
+    width: 1500px;
+    position: relative;
+}
+
+.background-mid img{
+    width: 100%;
+
+}
+
+.third{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-third>img{
+    width: 100px;
+    height: 100px;
+}
+
+.text-third{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: white;
+}
+
+.text-third>h1{
+    font-size: 20px;
+    padding: 0px 40px 0 40px;
+}
+
+.icons2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+    padding:50px 0px 50px;
+}
+
+.icon1-1{
+    padding-right: 160px;
+}
+.icon1-1>h3{
+    padding: 0px 15px 15px ;
+}
+
+.icon1-1>p{
+    color: dodgerblue;
+}
+
+.icon1-1>img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon1-2{
+    padding-right: 80px;
+}
+
+.icon1-2>h3{
+    padding: 0px 15px 15px ;
+}
+.icon1-2>p{
+    color: dodgerblue;
+}
+.icon1-2>img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon1-3{
+    padding-left: 80px;
+}
+.icon1-3>h3{
+    padding: 0px 15px 15px ;
+}
+.icon1-3>p{
+    color: dodgerblue;
+}
+.icon1-3>img{
+    width: 100px;
+    height: 100px;
+}
+
+.icon1-4{
+    padding-left: 160px;
+}
+.icon1-4>h3{
+    padding: 0px 15px 15px;
+}
+.icon1-4>p{
+    color: dodgerblue;
+}
+
+.icon1-4>img{
+    width: 100px;
+    height: 100px;
+}
+
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.four-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 1500px;
+}
+
+.four-container>img{
+    width: 300px;
+    height: 300px;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 10%;
+}
+
+.four-right>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.four-p{
+    padding: 35px 100px;
+    font-size: 30px;
+}
+
+.four-ul{
+    padding: 0px 115px 30px;
+    color: grey;
+}
+
+.four-button{
+    width: 100px;
+    padding-left: 110px;
+}
+
+.four-button>button{
+    border:none;
+    border-radius: 30%;
+    background-color: cornflowerblue;
+    color: white;    
+    padding: 15px ;  
+    font-size: 10px; 
+    justify-content: center ;
+}    
+
+.four-button :hover{
+    background-color: darkmagenta;
+}
+
+.fifth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: inherit;
+    width: 100%;
+    position: relative;
+    padding: 50px;
+}
+
+.fifth-heading>p{
+    padding: 10px;
+    color: dodgerblue;
+}
+
+
+.fifth-avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.avatar1{
+    padding-right: 60px;
+    text-align: center;
+}
+
+.avatar1>img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+}
+
+.avatar1>h3{
+    padding: 15px;
+    color: dodgerblue;
+}
+
+.avatar2{
+    padding-right: 30px;
+    text-align: center;
+}
+
+.avatar2>img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+}
+
+.avatar2>h3{
+    padding: 15px;
+    color: dodgerblue;
+}
+
+.avatar3{
+    padding-left: 30px;
+    text-align: center;
+}
+
+.avatar3>img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+}
+.avatar3>h3{
+    padding: 15px;
+    color: dodgerblue;
+}
+
+.avatar4{
+    padding-left: 60px;
+    text-align: center;
+}
+
+.avatar4>img{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+}
+.avatar4>h3{
+    padding: 15px;
+    color: dodgerblue;
+}
+
+.avatar1-icons>img{
+    width: 35px;
+    height: 35px;
+    padding: 15px 0px;
+}
+
+.repository{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.repository>a{
+    font-size: 10px;
+    border: 2px solid black;
+    background-color: blue;
+    border-color: blue;
+    font-weight : 1000;
+    color: white;
+}
